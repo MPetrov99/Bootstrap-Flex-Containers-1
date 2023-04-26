@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox Containers 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap Files -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Page CSS -->
+	<link rel="stylesheet" href="css/page.css">
+
+</head>
+<body>
+
+	<header>
+	<div class="d-flex justify-content-center">
+		<img src="images/carved-rock-logo-black.png" alt="" class="logo p-3">
+	</div>
+	</header>
+
+	<main>
+  	<div class="d-flex banner"></div>
+   
+	<!-- Section 1 - Cards -->
+  	<div class="d-flex justify-content-around my-4 px-5 text-center flex-wrap">
+  		<div class="d-flex callOuts flex-column p-4 m-3 flex-fill" style="border: 1px solid gray; background-color: white;"">
+  			<img src="images/mountain_Blue.png" alt="" class="d-block mx-auto my-4">
+  			<h2>Climbing</h2>
+  			<p class="h4">Get your climbing shoes ready!</p>
+  		</div>
+  		<div class="d-flex callOuts flex-column p-4 m-3 flex-fill" style="border: 1px solid gray; background-color: white;"">
+  			<img src="images/shoe_Blue.png" alt="" class="d-block mx-auto my-4">
+  			<h2>Running</h2>
+  			<p class="h4">Run away from your troubles!</p>
+  		</div>
+  		<div class="d-flex callOuts flex-column p-4 m-3 flex-fill" style="border: 1px solid gray; background-color: white;"">
+  			<img src="images/bicycle_Blue.png" alt="" class="d-block mx-auto my-4">
+  			<h2>Bicycling</h2>
+  			<p class="h4">Running not fast enough? Get a bike.</p>
+  		</div>
+  	</div>
+  
+	<!-- Section 2 -->
+  	<div class="d-flex flex-column flex-lg-row align-items-center px-2 px-lg-5 mb-4 mx-3">
+  		<div class="w-25 mr-3">
+  			<img src="images/shutterstock_422560537.jpg" alt="" class="img-fluid">
+  		</div>
+  		<div class="w-75 p4 text-center text-lg-left ml-lg-3">
+  			<h3 class="mt-md-3">Title section</h3>
+  			<p class="h6 my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore commodi recusandae quo quod, illum illo? Debitis non laboriosam cum unde amet odit laudantium. Cumque nam dignissimos architecto minus iste suscipit quaerat saepe aliquam perspiciatis eius eveniet labore porro asperiores consectetur, in quam maxime commodi, eligendi reprehenderit fuga voluptas repellendus? Quaerat pariatur ex necessitatibus mollitia. Eligendi commodi beatae aliquid consectetur quisquam obcaecati, deserunt voluptas dicta. Ratione totam quo similique corporis?</p>
+  			<a href="#" class="btn btn-primary">Learn More</a>
+  		</div>
+  	</div>
+</main>
+
+   <footer>
+		<div class="d-flex bottomArea p-3">
+			<div class="w-60 ml-5">
+				<img src="images/carved-rock-logo-white.png" alt="" class="img-fluid h-25">
+				<h5>About us</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, architecto aperiam! Praesentium reiciendis, illo eveniet
+				maiores unde officia in voluptatibus animi velit laudantium placeat</p>
+			</div>
+			<div class="d-flex flex-column mt-3 ml-4">
+				<h5>Contact Us:</h5>
+				<p>123 W Jenkins St.</p>
+				<p>555-5555</p>
+				<p>info@carvedrock.com</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap Files -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

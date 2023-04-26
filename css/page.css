@@ -1,0 +1,114 @@
+.testBox{
+	background-color: #d5d9de;
+	border: 1px solid #a9acb0;
+	padding: 10px 20px;
+}
+
+.logo{
+	width: auto;
+	height: 200px;
+}
+
+.banner {
+	height: 150px;
+	background-image: url('../images/shutterstock_116403520.jpg');
+	background-size: cover;
+	background-position: center -100px;
+}
+
+.callOuts {
+	transition: all .35s ease-in;
+	margin: 0 20px;
+}
+
+.callOuts img{
+	height: auto;
+	width: 170px;
+	transition: transform 0.7s;
+}
+
+.callOuts:hover img {
+	transform: rotate(20deg) translateZ(0);
+}
+
+.callOuts:hover {
+	overflow: hidden;
+	transform: scale(1.1);
+	margin: 0;
+	padding: 0;
+}
+
+/*Bottom Area*/
+.bottomArea{
+	background-color: #424243;
+	height: 250px;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.bottomArea p{
+	font-size: .7rem;
+}
+
+.bottomArea h5{
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.w-60{
+	width: 60%!important;
+}
+
+.h-30{
+	width: 30%!important;
+}
+
+.w-20{
+	width: 20%!important;
+}
+
+.margin-left-right {
+	margin: 20px;
+}
+
+/*Responsive code*/
+
+@media (min-width: 576px) {
+	.banner {
+		height: 200px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.banner {
+		height: 300px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.banner {
+		height: 400px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.banner {
+			height: 600px;
+		}
+}
+
+@media (min-width: 1370px) {
+	.callOuts {
+			margin: 0;
+		}
+}
+
+@media (min-width: 1500px) {
+	.banner {
+		height: 750px;
+	}
+}
+
